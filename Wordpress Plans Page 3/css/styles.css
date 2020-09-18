@@ -1,0 +1,184 @@
+#footer{
+  text-align: center;
+  padding: 6% 6% 0;
+}
+
+#pricing {
+  padding:30px;
+  text-align: center;
+  background-color: #f4f4f4;
+  color: #393b44;
+}
+.fa-user-circle{
+  font-size: 3.15rem;
+}
+.fa-wordpress-simple{
+  color: #133b5c;
+}
+
+
+
+.demo{ background: #000; }
+.pricingTable{
+    padding: 30px 0 40px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 2px 1px 2px 1px;
+    margin-top: 20px;
+}
+.pricingTable .pricingTable-header{
+    color: #333;
+}
+.pricingTable .icon{
+    display: block;
+    font-size: 50px;
+}
+.pricingTable .title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.pricingTable .price-value{
+    padding: 20px 0 14px;
+    margin: 23px -10px 30px;
+    background: #eee;
+    color: #333;
+    position: relative;
+    transition: all 0.3s ease-in-out 0s;
+}
+.pricingTable:hover .price-value-1{
+    background: #7d9fad;
+    color: #fff;
+}
+.pricingTable:hover .price-value-2{
+    background: #133b5c;
+    color: #fff;
+}
+.pricingTable:hover .price-value-3{
+    background: #5e91a6;
+    color: #fff;
+}
+.pricingTable:hover .price-value-4{
+    background: #145374;
+    color: #fff;
+}
+
+.pricingTable .price-value:before,
+.pricingTable .price-value:after{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 15px;
+    border-width: 13px 5px 11px;
+    border-style: solid;
+    border-color: transparent #777 #777 transparent;
+    position: absolute;
+    top: -24px;
+    left: 0;
+    transition: all 0.3s ease-in-out 0s;
+}
+.pricingTable .price-value:after{
+    border-width: 11px 5px;
+    border-color: transparent transparent #777 #777;
+    top: -22px;
+    left: auto;
+    right: 0;
+}
+.pricingTable:hover .price-value-1:before{
+    border-color: transparent #7d9fad #7d9fad transparent;
+}
+.pricingTable:hover .price-value-1 :after{
+    border-color: transparent transparent #7d9fad #7d9fad;
+}
+.pricingTable:hover .price-value-2:before{
+    border-color: transparent #133b5c #133b5c transparent;
+}
+.pricingTable:hover .price-value-2 :after{
+    border-color: transparent transparent #133b5c #133b5c;
+}
+.pricingTable:hover .price-value-3:before{
+    border-color: transparent #5e91a6 #5e91a6 transparent;
+}
+.pricingTable:hover .price-value-3 :after{
+    border-color: transparent transparent #5e91a6 #5e91a6;
+}
+.pricingTable:hover .price-value-4:before{
+    border-color: transparent #145374 #145374 transparent;
+}
+.pricingTable:hover .price-value-4 :after{
+    border-color: transparent transparent #145374 #145374;
+}
+.pricingTable .amount{
+    display: inline-block;
+    font-size: 50px;
+    position: relative;
+}
+.pricingTable .currency{
+    font-size: 25px;
+    position: absolute;
+    top: 13px;
+    right: 60px;
+}
+.pricingTable .month{
+    font-size: 20px;
+    position: absolute;
+    top: 32px;
+    right: -65px;
+}
+.pricingTable .pricing-content{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-bottom: 40px;
+}
+.pricingTable .pricing-content li{
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.fa-times{
+  margin-right: 8px;
+}
+
+.fa-check{
+  margin-right: 8px;
+}
+.pricingTable .pricingTable-signup{
+    display: block;
+    padding: 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color:  #858585;
+    text-transform: uppercase;
+    border-top: 1px solid #e0dcdc;
+    border-bottom: 1px solid #e0dcdc;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover .pricingTable-signup-1{
+    background: #7d9fad;
+    border-top: 1px transparent  #7d9fad;
+    border-bottom: 1px transparent #7d9fad;
+    color: #fff;
+}
+.pricingTable:hover .pricingTable-signup-2{
+    background: #133b5c;
+    border-top: 1px solid  #133b5c;
+    border-bottom: 1px solid #133b5c;
+    color: #fff;
+}
+.pricingTable:hover .pricingTable-signup-3{
+    background: #5e91a6;
+    border-top: 1px solid  #5e91a6;
+    border-bottom: 1px solid #5e91a6;
+    color: #fff;
+}
+.pricingTable:hover .pricingTable-signup-4{
+    background: #145374;
+    border-top: 1px solid  #145374;
+    border-bottom: 1px solid #145374;
+    color: #f6f6f6;
+}
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 30px; }
+}
